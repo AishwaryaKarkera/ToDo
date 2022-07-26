@@ -1,0 +1,94 @@
+:root {
+  --black: rgb(33, 37, 41);
+  --primary: #07f;
+  --text-secondary: #4d658a;
+}
+
+.loading {
+  width: 100%;
+  margin: auto;
+  color: #0077ff;
+  padding-left: 40%;
+  padding-right: 40%;
+  font-size: 50px;
+}
+
+.app {
+  font-family: sans-serif;
+  width: 100%;
+  margin: auto;
+  background-color: #faf9f6;
+}
+
+.logo-style {
+  height: 139px;
+  margin-left: 13%;
+}
+
+@media (max-width: 767px) {
+  .logo-style {
+    margin-left: 35%;
+  }
+}
+
+@media (max-width: 500px) {
+  .logo-style {
+    margin-left: 30%;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  column-gap: 4rem;
+  row-gap: 4rem;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+}
+
+.btnDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnLoad {
+  background-color: #a9c4eb;
+  color: white;
+  border-color: #a9c4eb;
+  padding: 0.5rem;
+  border-radius: 1.25rem;
+  cursor: pointer;
+  font-size: medium;
+  margin-top: 10px;
+  margin-bottom: 3%;
+}
+
+.btnLoad:hover {
+  background-color: #0077ff;
+  transition: 0.7s;
+}
+
+@media (max-width: 768px) {
+  .app {
+    width: 100%;
+    margin: auto;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 500px) {
+  .app {
+    padding: 1rem;
+    width: 100%;
+    margin: auto;
+  }
+
+  .grid {
+    grid-template-columns: unset;
+  }
+}

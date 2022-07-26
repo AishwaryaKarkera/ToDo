@@ -1,0 +1,47 @@
+.main-header {
+  padding: 1rem;
+  width: 70%;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  background-color: #a9c4eb;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.header-sort_label {
+  margin-right: 0.5rem;
+}
+
+.header-sort_select {
+  margin-right: 2rem;
+}
+
+.header-toggle_label {
+  margin-right: 0.5rem;
+}
+
+.complete-checkbox-style > label {
+  margin-left: 0px;
+}
+
+.headerDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+  padding: 10px;
+}
+@media (max-width: 768px) {
+  .headerDiv {
+    display: initial;
+  }
+}
